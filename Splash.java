@@ -76,7 +76,7 @@ public class Splash extends JFrame {
 		contentPane.add(progressBar);
 		
 		JLabel lblNewLabel = new JLabel(" ");
-		lblNewLabel.setIcon(new ImageIcon(System.getProperty("user.dir")+"\\Media\\DairyImage.jpg")); 
+		lblNewLabel.setIcon(new ImageIcon("DairyImage.jpg")); 
 		lblNewLabel.setBounds(0, 0, 775, 461);
 		contentPane.add(lblNewLabel);
 		setLocationRelativeTo(null);
